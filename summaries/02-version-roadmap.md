@@ -1,0 +1,32 @@
+# Version Roadmap
+
+## v0.1 — "It works on my phone"
+Text logging + Gemini API + SQLite + today's meal list with running calorie total.
+Proves the full pipeline: Expo → UI → API call → SQLite → display.
+
+## v0.2 — Photo input
+Camera + gallery → send image to Gemini → calories + macros.
+
+## v0.3 — Rings dashboard
+Apple-style circular progress rings for calories, protein, carbs, fat + daily goals.
+
+## v0.4 — Settings screen
+BYOM: swap provider, enter API key, set daily goals.
+
+## v0.5 — Voice input
+Record audio → send to AI → transcription + nutrition analysis.
+
+## v0.6 — Streaks + notifications
+Duolingo-style streak tracking + local reminders to log meals.
+
+## v0.7 — Recipe builder
+Multi-photo recipe input → per-serving breakdown → save locally for re-logging.
+
+## v0.8 — Summaries
+Daily and weekly summaries with macro breakdowns and trends.
+
+## v0.9 — History screen + polish
+Scrollable meal history by day + UI cleanup.
+
+## v1.0 — MVP complete
+All core features stable and working.
