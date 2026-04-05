@@ -26,3 +26,5 @@ Files are numbered sequentially (`01-`, `02-`, ...) and given a short descriptiv
 | # | Date | Topic | Key Learnings |
 |---|------|-------|---------------|
 | 01 | 2026-04-04 | Project kickoff — spec writing | Start with spec before code; ask Claude questions to shape decisions; voice memo → transcript → spec workflow |
+| 02 | 2026-04-04 | Version roadmap | Break MVP into tiny vertical slices; each version should be usable on its own |
+| 03 | 2026-04-04 | v0.1 build | Full pipeline in ~5 files; BYOM abstraction from day 1; home screen = logging screen for lowest friction |
