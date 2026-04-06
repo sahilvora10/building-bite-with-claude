@@ -29,3 +29,4 @@ Files are numbered sequentially (`01-`, `02-`, ...) and given a short descriptiv
 | 02 | 2026-04-04 | Version roadmap | Break MVP into tiny vertical slices; each version should be usable on its own |
 | 03 | 2026-04-04 | v0.1 build | Full pipeline in ~5 files; BYOM abstraction from day 1; home screen = logging screen for lowest friction |
 | 04 | 2026-04-05 | v0.1 testing | Use tunnel mode for WSL2; always `npx expo install`; curl-test APIs first; screenshots not video for Claude feedback |
+| 05 | 2026-04-05 | v0.2 build — photo input | AI layer was already ready for images from day 1; BYOM abstraction paid off; expo-image-picker handles permissions cleanly |
