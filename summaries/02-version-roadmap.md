@@ -48,6 +48,12 @@ Transition from Expo Go to standalone build via EAS Build.
 - Android home screen widget showing today's rings/calories (requires dev build + native module)
 - iOS widget (requires Apple Developer account)
 
+### Design / Engineering
+- Caching: cache AI results for repeated meals (e.g. "oats with milk" shouldn't hit the API every time)
+- Deterministic results: same input should yield consistent nutrition values — explore temperature=0, seed params, or local lookup table for common foods
+- In-app metrics: track API latency, cache hit rate, meals logged per day, app load time — visible in a debug/stats screen
+- Lightweight footprint: audit bundle size, lazy-load screens, minimize dependencies, keep SQLite queries fast
+
 ### Deployment
 - **Android**: standalone APK/AAB via EAS Build — installable without Expo Go or Play Store
 - **iOS**: requires Apple Developer account ($99/year) for standalone install or TestFlight
