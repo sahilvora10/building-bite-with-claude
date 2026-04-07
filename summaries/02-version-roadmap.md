@@ -28,5 +28,10 @@ Daily and weekly summaries with macro breakdowns and trends.
 ## v0.9 — History screen + polish
 Scrollable meal history by day + UI cleanup.
 
+### UI fix backlog (for v0.9)
+- Keyboard overlaps carbs/fat inputs on Settings screen (Android)
+- Ring overflow shadow effect (needs Skia, not possible in Expo Go)
+- Meal card flickering on re-render
+
 ## v1.0 — MVP complete
 All core features stable and working.
