@@ -33,5 +33,9 @@ Scrollable meal history by day + UI cleanup.
 - Ring overflow shadow effect (needs Skia, not possible in Expo Go)
 - Meal card flickering on re-render
 
+### Feature backlog
+- Non-food image handling: reject with a fun alert instead of logging a 0-calorie card
+- Edit/delete logged meals: tap to edit values or swipe to delete and re-log
+
 ## v1.0 — MVP complete
 All core features stable and working.
