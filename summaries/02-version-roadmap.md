@@ -40,3 +40,15 @@ Scrollable meal history by day + UI cleanup.
 
 ## v1.0 — MVP complete
 All core features stable and working.
+Transition from Expo Go to standalone build via EAS Build.
+
+## Post-v1.0 — Future
+
+### Widgets
+- Android home screen widget showing today's rings/calories (requires dev build + native module)
+- iOS widget (requires Apple Developer account)
+
+### Deployment
+- **Android**: standalone APK/AAB via EAS Build — installable without Expo Go or Play Store
+- **iOS**: requires Apple Developer account ($99/year) for standalone install or TestFlight
+- **Web**: possible but needs storage abstraction (expo-sqlite is native-only → IndexedDB or similar) and image picker adjustments
