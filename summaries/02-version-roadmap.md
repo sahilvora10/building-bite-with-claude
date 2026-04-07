@@ -36,6 +36,7 @@ Scrollable meal history by day + UI cleanup.
 ### Feature backlog
 - Non-food image handling: reject with a fun alert instead of logging a 0-calorie card
 - Edit/delete logged meals: tap to edit values or swipe to delete and re-log
+- AI provider showdown: run all providers on the same meal input and compare results side-by-side (fun/experimental feature)
 
 ## v1.0 — MVP complete
 All core features stable and working.
