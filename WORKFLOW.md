@@ -44,6 +44,11 @@ session-02: v0.1 scaffolding — expo setup lessons
 - Claude commits to `bite` after each working increment
 - If something interesting happens (good prompt, bad output, correction), note it for the journey
 
+### After merging a version to master
+1. Run `eas build --platform android --profile preview --non-interactive` to build a standalone APK
+2. Share the build link for install on phone
+3. This ensures the latest version is always available without needing Expo Go or a running dev server
+
 ### Ending a session (or hitting daily limit)
 
 **When you feel the limit approaching or want to stop:**
