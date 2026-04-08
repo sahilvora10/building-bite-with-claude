@@ -29,6 +29,7 @@ Daily and weekly summaries with macro breakdowns and trends.
 Scrollable meal history by day + UI cleanup.
 
 ### UI fix backlog (for v0.9)
+- Custom app icon for the APK (replace default Expo icon)
 - Keyboard overlaps carbs/fat inputs on Settings screen (Android)
 - Ring overflow shadow effect (needs Skia, not possible in Expo Go)
 - Meal card flickering on re-render
