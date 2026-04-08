@@ -49,6 +49,9 @@ Transition from Expo Go to standalone build via EAS Build.
 - Android home screen widget showing today's rings/calories (requires dev build + native module)
 - iOS widget (requires Apple Developer account)
 
+### Testing / Automation
+- Automated device testing: explore connecting Android device via ADB over WSL2, then Claude can run UI tests (Maestro/Detox) or drive the app via adb shell commands to self-test after each build
+
 ### Design / Engineering
 - Caching: cache AI results for repeated meals (e.g. "oats with milk" shouldn't hit the API every time)
 - Deterministic results: same input should yield consistent nutrition values — explore temperature=0, seed params, or local lookup table for common foods
