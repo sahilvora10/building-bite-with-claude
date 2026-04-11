@@ -60,6 +60,15 @@ Transition from Expo Go to standalone build via EAS Build.
 - Lightweight footprint: audit bundle size, lazy-load screens, minimize dependencies, keep SQLite queries fast
 
 ### Deployment
-- **Android**: standalone APK/AAB via EAS Build — installable without Expo Go or Play Store
-- **iOS**: requires Apple Developer account ($99/year) for standalone install or TestFlight
-- **Web**: possible but needs storage abstraction (expo-sqlite is native-only → IndexedDB or similar) and image picker adjustments
+
+**Current status (v1.0 MVP):**
+- **Android**: standalone APK via EAS Build — daily testing device, fully working
+- **iOS**: Expo Go only (free) — needs dev server running, no notifications. Daily driver phone but no standalone build without Apple Developer account ($99/year)
+- **Web**: not yet supported
+
+**Platform strategy (needs decision):**
+- Option A: **PWA (Progressive Web App)** — free on all platforms, installs to iOS home screen, no App Store needed. Requires swapping SQLite → IndexedDB, expo-av → Web Audio API. Same React + TypeScript skills transfer. Every future app also works on iOS/Android/desktop for free.
+- Option B: **Apple Developer Program ($99/year)** — standalone iOS builds via EAS, TestFlight distribution. Worth it if building multiple native apps. Only way to get push notifications + widgets on iOS.
+- Option C: **Stay Android-native + Expo Go on iOS** — no cost, but iOS experience is limited (server required, no notifications)
+
+**Context:** User's daily phone is iOS, Android is for testing. Planning more apps beyond Bite. PWA route would give free iOS access for all future apps.
