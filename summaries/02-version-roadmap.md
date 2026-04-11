@@ -25,23 +25,24 @@ Multi-photo recipe input → per-serving breakdown → save locally for re-loggi
 ## v0.8 — Summaries
 Daily and weekly summaries with macro breakdowns and trends.
 
-## v0.9 — History screen + polish
-Scrollable meal history by day + UI cleanup.
+## v0.9 — Extended history + meal time tags
+Extend summaries beyond 7 days (scrollable full history) + meal time tags (breakfast/lunch/dinner/snack).
 
-### UI fix backlog (for v0.9)
+## v1.0 — MVP complete
+All core features stable and working.
+Transition from Expo Go to standalone build via EAS Build.
+
+### UI fix backlog (post-v1.0)
 - Custom app icon for the APK (replace default Expo icon)
 - Keyboard overlaps carbs/fat inputs on Settings screen (Android)
 - Ring overflow shadow effect (needs Skia, not possible in Expo Go)
 - Meal card flickering on re-render
 
-### Feature backlog
-- Non-food image handling: reject with a fun alert instead of logging a 0-calorie card
+### Feature backlog (post-v1.0)
 - Edit/delete logged meals: tap to edit values or swipe to delete and re-log
 - AI provider showdown: run all providers on the same meal input and compare results side-by-side (fun/experimental feature)
-
-## v1.0 — MVP complete
-All core features stable and working.
-Transition from Expo Go to standalone build via EAS Build.
+- Export data: CSV export of all meals for backup
+- Search meals: find past meals by name
 
 ## Post-v1.0 — Future
 
