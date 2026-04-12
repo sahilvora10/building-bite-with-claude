@@ -20,6 +20,8 @@
 
 ## Design decisions
 - Meal edit sends corrected text description to Gemini rather than manually editing macro numbers — keeps AI as source of truth
+- Meal tag (Breakfast/Lunch/Snack/Dinner) can be overridden without re-analysis — stored in new `meal_tag` column, falls back to time-based derivation if not set
+- Recipe servings can be updated without re-analysis — recalculates per-serving from total
 - Recipe edit shows ingredients (editable) but no photos — photos are large base64 in DB, not worth loading back
 - No long-press gestures — everything accessible via tap, explicit buttons for delete
 - Fun modal copy: "AI got it wrong? Tell it what you really ate and we'll fix the math."
